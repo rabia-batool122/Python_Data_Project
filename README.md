@@ -21,7 +21,7 @@ plt.show()
 ```
 
 ### Results
-![Visualization of Top Skills for Data Nerds](2_Project/Graphical%20analysis/skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Nerds](2_Project/images/skill_demand_all_data_roles.png)
 
 ### Insights
 
@@ -48,7 +48,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in US](2_Project/Graphical%20analysis/Skill_Trend.png)
+![Trending Top Skills for Data Analysts in US](2_Project/images/Skill_Trend.png)
 *Bar graph visualizing the trending top skills for data analysts in the US in 2024.*
 
 ### Insights:
@@ -58,3 +58,24 @@ plt.show()
 - SAS trails behind all other skills, never crossing 6%. It even dips below 5% mid-year, with a slight recovery by December.
 - There's no explosive growth for any new skill — stability dominates the year. Tools like SQL and Excel are "evergreens," while Python and Tableau are "rising specialists."
 
+
+## 3. How well do jobs and skills pay for Data Analysts?
+
+### Salary Analysis for Data Nerds
+
+### Visualize Data 
+
+```python
+sns.boxplot(data=df_US, x='salary_year_avg', y='job_title_short', order=job_order)
+
+ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K')
+plt.gca().xaxis.set_major_formatter(ticks_x)
+plt.show()
+```
+
+### Results
+
+![Salary Distributions of Data Jobs in the US](2_Project/images/Salary_boxplot.png)
+*Box plot visualizing the salary distributions for the top 6 data job titles.*
+
+#### Insights
