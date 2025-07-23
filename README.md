@@ -88,3 +88,25 @@ plt.show()
 - Career Progression: Targeting engineering or scientist paths, and planning for senior roles, offers better long-term earning opportunities.
 - Salary Negotiation: Leverage knowledge of upper-range outliers as benchmarks, especially when possessing unique skills.
 - Role Comparison: Consider lateral moves (e.g., Data Analyst to Data Engineer/Scientist) for quicker salary growth rather than only seeking seniority in analyst paths.
+
+### Highest Paid & Most Demanded Skills for Data Analysts
+
+#### Visualize Data
+
+```python
+
+fig, ax= plt.subplots(2, 1)
+
+# Top 10 Highest Paid Skills for Data Analysts
+sns.barplot(data=df_DA_top_pay, x='median', y=df_DA_top_pay.index, ax=ax[0], hue='median', palette='dark:b_r')
+
+# Top 10 Most In-Demand Skills for Data Analysts
+sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1], hue='median', palette='light:b')
+
+plt.show()
+
+```
+
+#### Results
+
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US]()
