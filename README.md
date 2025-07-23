@@ -79,3 +79,12 @@ plt.show()
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Insights
+
+- Senior roles (Senior Data Scientist, Senior Data Engineer, Senior Data Analyst) consistently earn more than their non-senior counterparts. Median salaries for senior titles are significantly higher, with Senior Data Scientists and Senior Data Engineers positioned at the top.
+- Both Data Engineers and Data Scientists have overlapping salary ranges. Data Engineers (both senior and standard) show a higher upper range than equivalent Data Scientists, possibly reflecting demand in data infrastructure.
+- Senior roles exhibit wider salary distributions, with larger box plots and more frequent outliers, indicating both greater earning potential and variability.
+- Data Analyst and Senior Data Analyst positions have the lowest medians and lower upper incomes compared to engineering and scientist roles. Significant salary jump is observed when progressing from Data Analyst to Data Scientist or Data Engineer positions.
+- Outliers for all roles suggest some individuals earn substantially above the typical range, possibly due to location, company size, or niche expertise.
+- Career Progression: Targeting engineering or scientist paths, and planning for senior roles, offers better long-term earning opportunities.
+- Salary Negotiation: Leverage knowledge of upper-range outliers as benchmarks, especially when possessing unique skills.
+- Role Comparison: Consider lateral moves (e.g., Data Analyst to Data Engineer/Scientist) for quicker salary growth rather than only seeking seniority in analyst paths.
