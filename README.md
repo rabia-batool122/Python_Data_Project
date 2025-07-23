@@ -109,4 +109,11 @@ plt.show()
 
 #### Results
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US]()
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](2_Project/images/Highest_Paid_and_Most_In_Demand_Skills_For_Data_Analysts_in_the_US.png)
+*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+
+
+#### Insights
+- Niche tools like dplyr, bitbucket, gitlab, solidity offer salaries near $190K+. AI-related skill hugging face is among top earners — GenAI pays big. Tools like ansible, couchbase, mxnet pay well but are less common — rarity = $$$.
+- Core tools: python, r, sql, tableau, power bi — used in most analyst roles. Business tools like excel, powerpoint, word are still highly valued.
+
