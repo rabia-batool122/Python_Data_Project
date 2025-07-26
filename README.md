@@ -117,3 +117,27 @@ plt.show()
 - Niche tools like dplyr, bitbucket, gitlab, solidity offer salaries near $190K+. AI-related skill hugging face is among top earners — GenAI pays big. Tools like ansible, couchbase, mxnet pay well but are less common — rarity = $$$.
 - Core tools: python, r, sql, tableau, power bi — used in most analyst roles. Business tools like excel, powerpoint, word are still highly valued.
 
+## What is the most optimal skill to learn for Data Analysts?
+
+#### Visualize Data 
+
+```python
+from adjustText import adjust_text
+import matplotlib.pyplot as plt
+
+plt.scatter(df_DA_skills_high_demand['skill_percent'], df_DA_skills_high_demand['median_salary'])
+plt.show()
+```
+
+#### Results
+
+![Most Optimal Skills for Data Analysts in the US](2_Project/images/Optimal_Skills.png)
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
+
+- Python delivers the highest median salary (~$98K) while maintaining solid demand (~30%). It’s the top-paying skill in this space.
+- SQL is the most commonly required skill (~58%), with a competitive salary (~$92K). It's a must-have baseline for any analyst.
+- Tableau strikes a strong balance — with ~35% usage and ~$93K salary, it’s a smart skill for visualization and dashboarding.
+- Power BI and SAS are grouped closely, both offering ~$90K salaries and used in ~20% of postings. They serve similar business analytics functions.
+- Oracle and Go are less common but highly paid (~$96K+), making them niche skills with premium returns for specialized roles.
+- Excel, Word, and PowerPoint have lower salaries (~$82–85K) and are less likely to drive job growth — they're supporting tools rather than game-changers.
+
